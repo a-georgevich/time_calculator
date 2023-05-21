@@ -1,24 +1,29 @@
 # Time Calculator (24 hour - format)
 
-### Used for calculating time intervals within a span of 24 hours.
+## Used for calculating time intervals within a span of 24 hours or a total sum of multiple 24 hour intervals
 
 Here is a simple example:
-```
-Enter time below
-==================
-Starting  hour: 15
-Starting minut: 23
 
-Ending    hour: 21
-Ending   minut: 56
-Total time = 6h 33m
-==================
-Starting  hour: 17  
-Starting minut: 45
+```text
+Enter '1' ( for one time interval calucaltion )
+or a number of time intervals if you would like to sum: 2
+---------------
+Interval no. 1.
+Starting   hour: 15
+Starting minute: 23
 
-Ending    hour: 03
-Ending   minut: 14
-Total time = 9h 29m
-==================
+Ending     hour: 21
+Ending   minute: 56
+---------------
+Interval no. 2.
+Starting   hour: 17
+Starting minute: 45
+
+Ending     hour: 03
+Ending   minute: 14
+
+Total time = 16h 2m
+---------------------
 ```
-Created as a little tool for my day job, my colleagues find it useful, since we are daily running a lot of time calculations.
+
+Created as a little tool for my day job, my colleagues find it useful.
